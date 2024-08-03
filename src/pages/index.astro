@@ -1,0 +1,43 @@
+---
+import BaseHead from "../components/BaseHead.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+  </head>
+  <body>
+    <Header />
+    <main>
+      <h1>🌸 Bienvenidos a Bordados Teresa López</h1>
+      <p>
+        Bienvenidos a nuestro blog oficial, donde compartiremos noticias,
+        tendencias y consejos sobre la moda tradicional mexicana, especialmente
+        sobre nuestras hermosas naguas bordadas.
+      </p>
+      <p>
+        Nuestro objetivo es compartir la belleza y la riqueza de la cultura
+        mexicana a través de nuestras creaciones.
+      </p>
+      <p>¿Qué encontrarás en nuestro blog?</p>
+      <ul>
+        <li>Noticias sobre nuestras últimas colecciones y lanzamientos</li>
+        <li>
+          Consejos sobre cómo combinar nuestras naguas con otros elementos de
+          moda
+        </li>
+        <li>Historias detrás de nuestros diseños y bordados</li>
+        <li>Entrevistas con diseñadores y artesanos mexicanos</li>
+      </ul>
+      <p>
+        ¡Disfruta! Si necesitas ayuda, no dudes en preguntar. Estamos aquí para
+        ayudarte.
+      </p>
+    </main>
+    <Footer />
+  </body>
+</html>
